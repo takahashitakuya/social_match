@@ -1,0 +1,85 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+    img{
+        max-width:100%;
+    }
+}
+
+.form-radio{
+    .checkbox{
+        width:15%;
+        float:left;
+        margin-top:0;
+    }
+}
+
+.card{
+    border: solid 1px #ccc;
+    margin-bottom:20px;
+    position:relative;
+    .cover-image{
+          img{
+              width: 100%;
+              height: auto;
+          }
+        }
+        .card-body{
+            height:160px;
+            padding:10px;
+            
+            .catch-copy{
+                font-weight:bold;
+            	max-height:2.8em;
+            	overflow:hidden;
+            	text-overflow: ellipsis;
+            	line-height: 1.4;
+
+            }
+            
+            .card-data{
+                margin-bottom:20px;
+                .profile-icon{
+                    float:left;
+                }
+                .profile-detail{
+                    margin-left:50px;
+                    p{
+                        margin-bottom:0;
+                    	max-height:1.4em;
+                    	overflow:hidden;
+                    	text-overflow: ellipsis;
+                    	line-height: 1.4;
+                        
+                    }
+                    .last-sign-in{
+                        color:#999;
+                    }
+                }
+            }
+        }
+        .card-footer{
+            position:absolute;
+            bottom:10px;
+            left:10px;
+            right:10px;
+        }
+ 
+
+}

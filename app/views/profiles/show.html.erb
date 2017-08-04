@@ -1,0 +1,12 @@
+<h1>Profiles#show</h1>
+<p>Find me in app/views/profiles/show.html.erb</p>
+
+
+<div class="row">
+    <div id="main-col" class="col-md-9">
+       <%= current_user.profile.display_name %>
+        <%= image_tag @profile.profile_image.url(:medium) %>
+        <%= @profile.user.username %> 
+    </div>
+    <div id="side-col" class="col-md-3">></div>
+</div>

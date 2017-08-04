@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: one
+  display_name: MyString
+  description: MyText
+  policy: MyText
+  catch_copy: MyString
+  profile_image: 
+  cover_image: 
+  content: MyText
+  staff_lastname: MyString
+  staff_firstname: MyString
+  tel: MyString
+  fax: MyString
+  website: MyString
+  postal: MyString
+  _code: MyString
+  address_pref: MyString
+  address_city: MyString
+  address_number: MyString
+  address_building: MyString
+  address_full: MyString
+
+two:
+  user_id: two
+  display_name: MyString
+  description: MyText
+  policy: MyText
+  catch_copy: MyString
+  profile_image: 
+  cover_image: 
+  content: MyText
+  staff_lastname: MyString
+  staff_firstname: MyString
+  tel: MyString
+  fax: MyString
+  website: MyString
+  postal: MyString
+  _code: MyString
+  address_pref: MyString
+  address_city: MyString
+  address_number: MyString
+  address_building: MyString
+  address_full: MyString
